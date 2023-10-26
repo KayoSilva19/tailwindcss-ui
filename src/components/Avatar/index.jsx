@@ -5,7 +5,7 @@ export const Avatar = () => {
         className="
           rounded-full border-2
           border-zinc-900
-          dark:border-zinc-400
+          dark:border-zinc-200
         "
         width={48}
         height={48}

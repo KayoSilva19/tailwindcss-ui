@@ -20,7 +20,7 @@ export const Header = ({ handleChangeTheme, currentTheme }) => {
           <Lightning
             size={32}
             className="
-              text-white transition-all ease-linear
+              text-zinc-50 transition-all ease-linear
               hover:scale-125 hover:text-emerald-400 
             "
           />
@@ -29,7 +29,7 @@ export const Header = ({ handleChangeTheme, currentTheme }) => {
             size={32}
             weight="fill"
             className="
-            transition-all ease-linear
+            text-zinc-800 transition-all ease-linear
             hover:scale-125 hover:text-emerald-400 
         "
           />
