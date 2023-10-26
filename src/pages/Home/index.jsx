@@ -4,6 +4,7 @@ import { Container } from '../../components/Container'
 import { SideBar } from '../../components/SideBar'
 import { BottomBar } from '../../components/BottomBar'
 import { EmailList } from '../../components/EmailList'
+import { EmailContent } from '../../components/EmailContent'
 
 export const Home = () => {
   const [theme, setTheme] = useState('dark')
@@ -28,7 +29,12 @@ export const Home = () => {
         <div className="flex flex-col md:flex-row gap-2 xl:gap-4 h-full relative">
           <SideBar />
           <EmailList setOpenEmail={setOpenEmail} />
-          {JSON.stringify(openEmail)}
+          {openEmail && (
+            <EmailContent
+              email={openEmail}
+              onClose={() => setOpenEmail(null)}
+            />
+          )}
           <BottomBar />
         </div>
       </Container>
