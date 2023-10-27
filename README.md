@@ -2,7 +2,7 @@
 
 > Status: Completed ✅
 
-### A project that aims to apply Tailwind CSS concepts to React
+### A project that aims to apply Tailwind CSS concepts with React
 
 ## Technologies Used:
 
